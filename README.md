@@ -10,8 +10,8 @@ Project uses [Marvel Comics API].
 
 [Comics page] represents (here will be more info later...)
 
-<br><br>
-<img width="45%" alt="HomePage" src="../main/screenshots/Capture web_5-9-2022_1591_alenagm.github.io.jpeg">
+<br><br>captureweb
+<img width="45%" alt="HomePage" src="../main/screenshots/captureweb.jpeg">
 <br><br>
 ## Demo
 
