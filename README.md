@@ -1,6 +1,6 @@
-# MARVEL
+#  Marvel Information Portal
 
-_Marvel Characters database: Single Page Application built with React. IN PROGESS_
+_Single Page Application built with React. IN PROGESS_
 
 Training project made while following [JavaScript + React course] by Ivan Petrychenko on Udemy in order to master basic principles of React and Redux.
 
@@ -13,9 +13,10 @@ Project uses [Marvel Comics API].
 <br><br>
 <img width="45%" alt="HomePage" src="../main/screenshots/captureweb.jpeg">
 <br><br>
+
 ## Demo
 
-[MARVEL]
+ [Marvel Information Portal]
 
 ## Features
 
@@ -47,12 +48,12 @@ $ npm install
 # Run the app
 $ npm start
 ```
-
+<br><br>
   
   \* _Learning Project: Udemy [JavaScript + React course]_ 
   
-   [MARVEL]: <https://github.com/AlenaGM/marvel.git>
-   [Characters page]: <https://github.com/AlenaGM/marvel.git>
-   [Comics page]: <https://github.com/AlenaGM/marvel.git>
+   [Marvel Information Portal]: <https://alenagm.github.io/marvel/>
+   [Characters page]: <https://alenagm.github.io/marvel/>
+   [Comics page]: <https://alenagm.github.io/marvel/>
    [JavaScript + React course]: <https://www.udemy.com/course/javascript_full/>
    [Marvel Comics API]: <https://developer.marvel.com/>
