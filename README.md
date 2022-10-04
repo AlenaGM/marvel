@@ -2,7 +2,7 @@
 
 _Single Page Application built with React. IN PROGESS_
 
-Training project made while following [JavaScript + React course] by Ivan Petrychenko on Udemy in order to master basic principles of React and Redux.
+Training project made while following [JavaScript + React course] on Udemy in order to master basic principles of React and Redux.
 
 Project uses [Marvel Comics API].
 
@@ -50,7 +50,7 @@ $ npm start
 ```
 <br><br>
   
-  \* _Learning Project: Udemy [JavaScript + React course]_ 
+  \* _Learning Project: Udemy [JavaScript + React course] by Ivan Petrychenko_ 
   
    [Marvel Information Portal]: <https://alenagm.github.io/marvel/>
    [Characters page]: <https://alenagm.github.io/marvel/>
