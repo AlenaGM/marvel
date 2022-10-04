@@ -1,6 +1,6 @@
 # MARVEL
 
-_Marvel Characters database: Single Page Application built with React._
+_Marvel Characters database: Single Page Application built with React. IN PROGESS_
 
 Training project made while following [JavaScript + React course] by Ivan Petrychenko on Udemy in order to master basic principles of React and Redux.
 
@@ -10,7 +10,7 @@ Project uses [Marvel Comics API].
 
 [Comics page] represents (here will be more info later...)
 
-<br><br>captureweb
+<br><br>
 <img width="45%" alt="HomePage" src="../main/screenshots/captureweb.jpeg">
 <br><br>
 ## Demo
