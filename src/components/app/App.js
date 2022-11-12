@@ -1,10 +1,10 @@
-import { HashRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route, BrowserRouter } from "react-router-dom";
 import { MainPage, ComicsPage } from "../pages";
 import AppHeader from "../appHeader/AppHeader";
 
 const App = () => {
   return (
-    <HashRouter>
+    <BrowserRouter>
       <div className="app">
         <AppHeader />
         <main>
@@ -14,7 +14,7 @@ const App = () => {
           </Routes>
         </main>
       </div>
-    </HashRouter>
+    </BrowserRouter>
   );
 };
 
