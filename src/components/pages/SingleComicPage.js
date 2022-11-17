@@ -52,9 +52,9 @@ const View = ({ comic }) => {
         <p className="single-comic__descr">Language: {language}</p>
         <div className="single-comic__price">{price}</div>
       </div>
-      <div onClick={() => window.history.back()} className="single-comic__back">
-        Back to All Comics
-      </div>
+      <Link to="/comics" className="single-comic__back">
+        Back to all
+      </Link>
     </div>
   );
 };
