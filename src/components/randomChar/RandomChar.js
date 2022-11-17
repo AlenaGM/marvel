@@ -55,7 +55,7 @@ const RandomChar = () => {
 };
 
 const View = ({ char }) => {
-  const { name, description, thumbnail, homepage, wiki } = char;
+  const { name, description, thumbnail, homepage } = char;
 
   const imgStyle =
     thumbnail ===
@@ -77,9 +77,6 @@ const View = ({ char }) => {
         <div className="randomchar__btns">
           <a href={homepage} className="button button__main">
             <div className="inner">homepage</div>
-          </a>
-          <a href={wiki} className="button button__secondary">
-            <div className="inner">Wiki</div>
           </a>
         </div>
       </div>

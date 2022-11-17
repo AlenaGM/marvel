@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 
 import useMarvelService from "../../services/MarvelService";
@@ -43,7 +44,8 @@ const CharInfo = (props) => {
 };
 
 const View = ({ char }) => {
-  const { name, description, thumbnail, homepage, wiki, comics } = char;
+  const { name, description, thumbnail, homepage, comics } = char;
+  console.log(char);
 
   const imgStyle =
     thumbnail ===
@@ -61,9 +63,6 @@ const View = ({ char }) => {
             <a href={homepage} className="button button__main">
               <div className="inner">homepage</div>
             </a>
-            <a href={wiki} className="button button__secondary">
-              <div className="inner">Wiki</div>
-            </a>
           </div>
         </div>
       </div>
@@ -77,7 +76,9 @@ const View = ({ char }) => {
             .map((item, i) => {
               return (
                 <li className="char__comics-item" key={i}>
-                  {item.name}
+                  <Link to={`/comics/${item.resourceURI.substring(43)}`}>
+                    {item.name}
+                  </Link>
                 </li>
               );
             })
