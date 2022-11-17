@@ -41,18 +41,6 @@ const SingleComicPage = () => {
 
 const View = ({ comic }) => {
   const { title, description, pageCount, thumbnail, language, price } = comic;
-  const validReturnDest =
-    "https://alenagm.github.io/" &&
-    "https://alenagm.github.io/marvel" &&
-    "https://alenagm.github.io/marvel/comics";
-
-  const goBack = () => {
-    document.location.href !== validReturnDest ? (
-      <Link to="/comics" />
-    ) : (
-      window.history.back()
-    );
-  };
 
   return (
     <div className="single-comic">
@@ -64,7 +52,7 @@ const View = ({ comic }) => {
         <p className="single-comic__descr">Language: {language}</p>
         <div className="single-comic__price">{price}</div>
       </div>
-      <div onClick={() => goBack()} className="single-comic__back">
+      <div onClick={() => window.history.back()} className="single-comic__back">
         Back to All Comics
       </div>
     </div>

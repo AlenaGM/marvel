@@ -45,7 +45,6 @@ const CharInfo = (props) => {
 
 const View = ({ char }) => {
   const { name, description, thumbnail, homepage, comics } = char;
-  console.log(char);
 
   const imgStyle =
     thumbnail ===
