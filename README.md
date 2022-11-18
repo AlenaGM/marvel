@@ -1,8 +1,8 @@
 #  Marvel Information Portal
 
-_Single Page Application built with React. IN PROGESS_
+_Single Page Application built with React._
 
-Training project made while following [JavaScript + React course] on Udemy in order to master basic principles of React and Redux.
+School project made while following [JavaScript + React course].
 
 Project uses [Marvel Comics API].
 
@@ -12,6 +12,9 @@ Project uses [Marvel Comics API].
 
 <br><br>
 <img width="45%" alt="HomePage" src="../main/screenshots/captureweb.jpeg">
+<img width="45%" alt="HomePage" src="../main/screenshots/capturewebcomics.jpeg">
+<br><br><br><br><br><br><br><br>
+<img width="45%" alt="HomePage" src="../main/screenshots/capturewebonecomic.jpeg">
 <br><br>
 
 ## Demo
