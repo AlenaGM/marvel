@@ -22,7 +22,7 @@ const SingleComicLayout = ({ data }) => {
         <div className="single-comic__price">{price}</div>
       </div>
       <div onClick={() => navigate(-1)} className="single-comic__back">
-        Back to all Comics
+        Back to All
       </div>
     </div>
   );

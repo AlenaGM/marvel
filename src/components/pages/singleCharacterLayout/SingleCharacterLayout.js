@@ -18,7 +18,7 @@ const SingleCharacterLayout = ({ data }) => {
         <p className="single-comic__descr">{description}</p>
       </div>
       <div onClick={() => navigate(-1)} className="single-comic__back">
-        Back to all Characters
+        Back to All
       </div>
     </div>
   );
