@@ -17,7 +17,7 @@ const AppHeader = () => {
               style={({ isActive }) => ({
                 color: isActive ? "#9f0013" : "inherit",
               })}
-              to="/"
+              to="/marvel"
             >
               Characters
             </NavLink>
@@ -28,7 +28,7 @@ const AppHeader = () => {
               style={({ isActive }) => ({
                 color: isActive ? "#9f0013" : "inherit",
               })}
-              to="/comics"
+              to="/marvel/comics"
             >
               Comics
             </NavLink>
