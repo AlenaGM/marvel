@@ -1,4 +1,4 @@
-@import "../../style/variables.scss";
+@import "../../../style/variables.scss";
 
 .single-comic {
   margin-top: 50px;
@@ -32,7 +32,6 @@
     font-weight: bold;
     font-size: 18px;
     line-height: 24px;
-    cursor: pointer;
     &:hover {
       color: $main-color;
     }

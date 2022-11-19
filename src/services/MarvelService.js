@@ -5,12 +5,17 @@ const useMarvelService = () => {
 
   const _apiBase = "https://gateway.marvel.com:443/v1/public/";
   const _apiKey = "apikey=4940e9cbf92c4bbc34109f7eaa55c672";
-  const _baseOffset = 291;
+  const _baseOffset = 294;
 
   const getAllCharacters = async (offset = _baseOffset) => {
     const res = await request(
       `${_apiBase}characters?limit=9&offset=${offset}&${_apiKey}`
     );
+    return res.data.results.map(_transformCharacter);
+  };
+
+  const getCharacterByName = async (name) => {
+    const res = await request(`${_apiBase}characters?name=${name}&${_apiKey}`);
     return res.data.results.map(_transformCharacter);
   };
 
@@ -36,7 +41,7 @@ const useMarvelService = () => {
       id: char.id,
       name: char.name,
       description: char.description
-        ? `${char.description.slice(0, 294)}...`
+        ? `${char.description.slice(0, 210)}...`
         : "There is no description for this character",
       thumbnail: char.thumbnail.path + "." + char.thumbnail.extension,
       homepage: char.urls[0].url,
@@ -65,10 +70,11 @@ const useMarvelService = () => {
     loading,
     error,
     clearError,
-    getCharacter,
     getAllCharacters,
-    getComic,
+    getCharacterByName,
+    getCharacter,
     getAllComics,
+    getComic,
   };
 };
 
