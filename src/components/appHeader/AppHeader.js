@@ -5,7 +5,7 @@ const AppHeader = () => {
   return (
     <header className="app__header">
       <h1 className="app__title">
-        <Link to="//marvel">
+        <Link to="/marvel">
           <span>Marvel</span> Information Portal
         </Link>
       </h1>
