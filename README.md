@@ -42,10 +42,10 @@ Project uses [Marvel Comics API].
 The following commands install and run the development version:
 
 ```bash
-# Clone this repository
-$ git clone https://github.com/AlenaGM/marvel.git)
+# Clone the repository
+$ git clone https://github.com/AlenaGM/marvel.git
 # Go into the repository
-$ cd flashcards-app
+$ cd marvel
 # Install dependencies
 $ npm install
 # Run the app
@@ -53,7 +53,7 @@ $ npm start
 ```
 <br><br>
   
-  \* _Learning Project: Udemy [JavaScript + React course] by Ivan Petrychenko_ 
+  \* _Learning Project at Udemy [JavaScript + React course] by Ivan Petrychenko_ 
   
    [Marvel Information Portal]: <https://alenagm.github.io/marvel/>
    [Characters page]: <https://alenagm.github.io/marvel/>
