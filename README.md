@@ -4,7 +4,7 @@ _Single Page Application built with React that provides information about Marvel
 
 Project uses [Marvel Comics API].
 
-[Characters page] contains a range of cards with Marvel characters with possibility to select a specific character and see their detailed information and list of dedicated comics, as well as a random character section and a search form that leads to individual character's page.
+[Characters page] contains a range of cards with Marvel characters with possibility to select a specific character and see their detailed information and dedicated comics, as well as a random character section and a search form that leads to individual character's page.
 
 [Comics page] represents a collection of Marvel Comics and links to single comic pages.
 
