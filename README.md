@@ -25,7 +25,7 @@ Project uses [Marvel Comics API].
 &nbsp;&nbsp;&nbsp;&nbsp;&check;&nbsp;&nbsp; Custom Hooks<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&check;&nbsp;&nbsp; SASS<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&check;&nbsp;&nbsp; BEM-methodology<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&check;&nbsp;&nbsp; Fetch API, Get and Post requests<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&check;&nbsp;&nbsp; Fetch API, Get and Post-requests<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&check;&nbsp;&nbsp; React Router<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&check;&nbsp;&nbsp; React Helmet<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&check;&nbsp;&nbsp; Formik<br>
