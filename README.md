@@ -55,6 +55,6 @@ $ npm start
   
    [Marvel Information Portal]: <https://alenagm.github.io/marvel/>
    [Characters page]: <https://alenagm.github.io/marvel/>
-   [Comics page]: <https://alenagm.github.io/marvel/comics>
+   [Comics page]: <https://alenagm.github.io/marvel/comics/>
    [JavaScript + React course]: <https://www.udemy.com/course/javascript_full/>
    [Marvel Comics API]: <https://developer.marvel.com/>
