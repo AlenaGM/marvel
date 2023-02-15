@@ -1,31 +1,22 @@
 #  Marvel Information Portal
 
-_Single Page Application built with React._
-
-School project made while following [JavaScript + React course].
+_Single Page Application built with React that provides information about Marvel characters and comics._
 
 Project uses [Marvel Comics API].
 
-[Characters page] contains (here will be more info later...)
+[Characters page] contains a range of cards with Marvel characters with possibility to select a specific one and see their detailed information and dedicated comics, as well as a random character section and a search form that leads to individual character's page.
 
-[Comics page] represents (here will be more info later...)
+Comics page represents a collection of Marvel comics with links to single comic pages.
 
 <br><br>
 <img width="45%" alt="HomePage" src="../main/screenshots/captureweb.jpeg">
 <img width="45%" alt="HomePage" src="../main/screenshots/capturewebcomics.jpeg">
-<br><br><br><br><br><br><br><br>
-<img width="45%" alt="HomePage" src="../main/screenshots/capturewebonecomic.jpeg">
 <br><br>
 
 ## Demo
 
  [Marvel Information Portal]
-
-## Features
-
-- Here will be "Feature 1";
-- Here will be "Feature 2";
-- Here will be "Feature 3";
+ 
 
 ## Tech stack
 
@@ -33,30 +24,37 @@ Project uses [Marvel Comics API].
 &nbsp;&nbsp;&nbsp;&nbsp;&check;&nbsp;&nbsp; Functional Components<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&check;&nbsp;&nbsp; Custom Hooks<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&check;&nbsp;&nbsp; SASS<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&check;&nbsp;&nbsp; Fetch API, Get and Post requests<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&check;&nbsp;&nbsp; BEM-methodology<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&check;&nbsp;&nbsp; Fetch API, Get and Post-requests<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&check;&nbsp;&nbsp; React Router<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&check;&nbsp;&nbsp; React Helmet<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&check;&nbsp;&nbsp; Formik<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&check;&nbsp;&nbsp; Redux<br>
+
 
 ## Installation
 
 The following commands install and run the development version:
 
 ```bash
-# Clone this repository
-$ git clone https://github.com/AlenaGM/marvel.git)
+# Clone the repository
+$ git clone https://github.com/AlenaGM/marvel.git
+
 # Go into the repository
-$ cd flashcards-app
+$ cd marvel
+
 # Install dependencies
 $ npm install
+
 # Run the app
 $ npm start
 ```
 <br><br>
   
-  \* _Learning Project: Udemy [JavaScript + React course] by Ivan Petrychenko_ 
+  \* _Learning Project at Udemy [JavaScript + React course] by Ivan Petrychenko_ 
   
    [Marvel Information Portal]: <https://alenagm.github.io/marvel/>
    [Characters page]: <https://alenagm.github.io/marvel/>
-   [Comics page]: <https://alenagm.github.io/marvel/>
+   [Comics page]: <https://alenagm.github.io/marvel/comics>
    [JavaScript + React course]: <https://www.udemy.com/course/javascript_full/>
    [Marvel Comics API]: <https://developer.marvel.com/>
