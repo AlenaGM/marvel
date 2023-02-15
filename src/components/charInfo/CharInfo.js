@@ -67,7 +67,7 @@ const View = ({ data }) => {
             .map((item, i) => {
               return (
                 <li className="char__comics-item" key={i}>
-                  <Link to={`/marvel/comics/${item.resourceURI.substring(43)}`}>
+                  <Link to={`/comics/${item.resourceURI.substring(43)}`}>
                     {item.name}
                   </Link>
                 </li>
