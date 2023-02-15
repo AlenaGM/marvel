@@ -6,7 +6,7 @@ Project uses [Marvel Comics API].
 
 [Characters page] contains a range of cards with Marvel characters with possibility to select a specific one and see their detailed information and dedicated comics, as well as a random character section and a search form that leads to individual character's page.
 
-Comics page represents a collection of Marvel comics with links to single comic pages.
+[Comics page] represents a collection of Marvel comics with links to single comic pages.
 
 <br><br>
 <img width="45%" alt="HomePage" src="../main/screenshots/captureweb.jpeg">
@@ -55,6 +55,6 @@ $ npm start
   
    [Marvel Information Portal]: <https://alenagm.github.io/marvel/>
    [Characters page]: <https://alenagm.github.io/marvel/>
-   [Comics page]: <https://alenagm.github.io/marvel/comics>
+   [Comics page]: <https://alenagm.github.io/marvel/comics/>
    [JavaScript + React course]: <https://www.udemy.com/course/javascript_full/>
    [Marvel Comics API]: <https://developer.marvel.com/>
