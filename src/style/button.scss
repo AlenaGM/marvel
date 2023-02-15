@@ -21,10 +21,11 @@
     line-height: 18px;
     padding: 0 18px;
     transition: none;
+    border: none;
     &::before {
       border-color: $main-color transparent;
       border-style: solid;
-      border-width: 0 0 10px 10px;
+      border-width: 0 0 10px 11px;
       content: "";
       display: block;
       position: absolute;
@@ -35,7 +36,7 @@
     &::after {
       border-color: $main-color transparent;
       border-style: solid;
-      border-width: 0 0 10px 10px;
+      border-width: 0 0 10px 11px;
       content: "";
       display: block;
       position: absolute;
