@@ -18,14 +18,14 @@
   .inner {
     position: relative;
     background-color: $main-color;
-    line-height: 18px;
+    line-height: 16px;
     padding: 0 18px;
     transition: none;
     border: none;
     &::before {
       border-color: $main-color transparent;
       border-style: solid;
-      border-width: 0 0 10px 11px;
+      border-width: 0 0 11px 11px;
       content: "";
       display: block;
       position: absolute;
@@ -36,7 +36,7 @@
     &::after {
       border-color: $main-color transparent;
       border-style: solid;
-      border-width: 0 0 10px 11px;
+      border-width: 0 0 11px 11px;
       content: "";
       display: block;
       position: absolute;
