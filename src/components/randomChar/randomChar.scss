@@ -5,6 +5,9 @@
   grid-template-columns: repeat(2, 50%);
   align-items: center;
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
+  @media screen and (max-width: 1000px) {
+    grid-template-columns: 1fr;
+  }
   &__block {
     padding: 40px 35px;
     display: grid;
@@ -33,8 +36,11 @@
     line-height: 18px;
   }
   &__btns {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
     a:nth-child(1) {
-      margin-right: 30px;
+      margin-right: 12px;
     }
   }
   &__static {
