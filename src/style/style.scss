@@ -59,14 +59,19 @@ body {
   margin: 0 auto;
   padding: 50px 0;
   position: relative;
+  overflow-x: hidden;
+  min-width: 525px;
   .bg-decoration {
     position: absolute;
-    right: -174px;
+    right: -158px;
     bottom: -70px;
     z-index: -1;
+    @media screen and (max-width: 907px) {
+      display: none;
+    }
   }
   @media screen and (max-width: 767px) {
-    padding: 16px 0;
+    padding: 16px 0 30px;
   }
 }
 

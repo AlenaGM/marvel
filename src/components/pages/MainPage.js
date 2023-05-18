@@ -38,6 +38,7 @@ const MainPage = () => {
           </ErrorBoundary>
         </div>
       </div>
+      <img className="bg-decoration" src={decoration} alt="vision" />
     </>
   );
 };
