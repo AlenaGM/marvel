@@ -3,9 +3,13 @@
 .single-comic {
   margin-top: 50px;
   display: grid;
-  grid-template-columns: 293px 550px auto;
-  column-gap: 50px;
+  grid-template-columns: 293px 1fr auto;
+  gap: 50px;
   align-items: start;
+  @media screen and (max-width: 767px) {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
   &__img {
     width: 293px;
     height: 450px;

@@ -39,7 +39,7 @@ const CharSearchForm = () => {
   const results = !char ? null : char.length > 0 ? (
     <div className="char__search-wrapper">
       <div className="char__search-success">
-        There is! Visit {char[0].name} page?
+        There is! Visit {char[0].name}'s page?
       </div>
       <Link
         to={`/characters/${char[0].id}`}
