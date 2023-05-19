@@ -37,9 +37,9 @@ const RandomChar = () => {
       {setContent(process, View, char)}
       <div className="randomchar__static">
         <p className="randomchar__title">
-          Random character of the today!
+          Random character of the day!
           <br />
-          Want to get to know him better?
+          Want to know him better?
         </p>
         <p className="randomchar__title">Or choose another one</p>
         <button onClick={updateChar} className="button button__main">
