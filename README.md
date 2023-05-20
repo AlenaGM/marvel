@@ -1,6 +1,6 @@
 #  Marvel Information Portal
 
-_Single Page Application built with React that provides information about Marvel characters and comics._
+_Single Page Application built with React with information about Marvel characters and comics._
 
 Project uses [Marvel Comics API].
 
