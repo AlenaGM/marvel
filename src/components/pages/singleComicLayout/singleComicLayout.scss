@@ -9,6 +9,7 @@
   @media screen and (max-width: 767px) {
     grid-template-columns: 1fr;
     justify-items: center;
+    padding: 0 16px;
   }
   &__img {
     width: 293px;
