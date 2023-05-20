@@ -6,14 +6,10 @@
     background-color: $dark;
     min-height: 100px;
     height: auto;
-    padding: 0 25px;
     display: grid;
     grid-template-columns: 152px 1fr 133px;
     justify-items: center;
     align-items: center;
-    @media screen and (max-width: 767px) {
-      padding: 0 16px;
-    }
     &-text {
       font-weight: bold;
       font-size: 24px;
