@@ -24,7 +24,8 @@
       align-items: center;
       input {
         padding: 0 10px;
-        width: 250px;
+        width: 100%;
+        max-width: 420px;
         height: 38px;
         border: none;
         background: #ffffff;
@@ -53,6 +54,11 @@
       font-size: 18px;
       line-height: 24px;
       color: #03710e;
+      width: 100%;
+      max-width: 420px;
+      @media screen and (max-width: 907px) {
+        margin-right: 16px;
+      }
     }
   }
 }
