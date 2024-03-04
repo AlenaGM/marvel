@@ -2,6 +2,16 @@
   "name": "marvel",
   "version": "0.1.0",
   "private": true,
+  "author": "alena",
+  "license": "MIT",
+  "description": "Single Page Application built with React for providing information about Marvel characters and comics. Utilizes Marvel Comics API to display character cards, detailed character info, list of comics, random character section, and search form for individual character pages.",
+  "keywords": [
+    "React",
+    "SPA",
+    "Marvel"
+  ],
+  "homepage": "https://alena-marvel.netlify.app/",
+  "bugs": "https://github.com/AlenaGM/marvel/issues",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
@@ -19,7 +29,6 @@
     "web-vitals": "^2.1.4",
     "yup": "^0.32.11"
   },
-  "homepage": "https://alena-marvel.netlify.app/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
