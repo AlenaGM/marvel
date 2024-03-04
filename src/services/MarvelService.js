@@ -9,7 +9,6 @@ const useMarvelService = () => {
   const _baseOffset = 75;
 
   const getAllCharacters = async (offset = _baseOffset) => {
-    console.log(_apiKey);
     const res = await request(
       `${_apiBase}characters?orderBy=-modified&&limit=9&offset=${offset}&apikey=${_apiKey}`
     );
