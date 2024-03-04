@@ -16,6 +16,7 @@
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
+    "dotenv": "^16.4.5",
     "formik": "^2.2.9",
     "gh-pages": "^4.0.0",
     "prop-types": "^15.8.1",
