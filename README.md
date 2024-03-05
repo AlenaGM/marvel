@@ -1,12 +1,10 @@
 #  Marvel Information Portal
 
-_Single Page Application built with React with information about Marvel characters and comics._
+_This is a Single Page Application built with React that provides information about Marvel characters and comics._
 
-Project uses [Marvel Comics API].
+ The project utilizes the [Marvel Comics API] to display a range of cards with Marvel characters on the [Characters page].  Users can select a specific character to view detailed information about them, as well as see a list of dedicated comics. The page also features a random character section and a search form that leads to individual character pages.
 
-[Characters page] contains a range of cards with Marvel characters with possibility to select a specific one and see their detailed information and dedicated comics, as well as a random character section and a search form that leads to individual character's page.
-
-[Comics page] represents a collection of Marvel comics with links to single comic pages.
+The [Comics page] represents a collection of Marvel comics with links to view each comic's details.
 
 <br><br>
 <img width="45%" alt="HomePage" src="../main/screenshots/captureweb.jpeg">
@@ -24,8 +22,8 @@ Project uses [Marvel Comics API].
 &nbsp;&nbsp;&nbsp;&nbsp;&check;&nbsp;&nbsp; Functional Components<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&check;&nbsp;&nbsp; Custom Hooks<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&check;&nbsp;&nbsp; SASS<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&check;&nbsp;&nbsp; BEM-methodology<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&check;&nbsp;&nbsp; Fetch API, Get and Post-requests<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&check;&nbsp;&nbsp; BEM Methodology<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&check;&nbsp;&nbsp; Fetch API (Get and Post requests)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&check;&nbsp;&nbsp; React Router<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&check;&nbsp;&nbsp; React Helmet<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&check;&nbsp;&nbsp; Formik<br>
@@ -34,24 +32,24 @@ Project uses [Marvel Comics API].
 
 ## Installation
 
-The following commands install and run the development version:
+To run the development version locally, follow these steps:
 
 ```bash
-# Clone the repository
+# Clone the repository:
 $ git clone https://github.com/AlenaGM/marvel.git
 
-# Go into the repository
+# Navigate to the repository:
 $ cd marvel
 
-# Install dependencies
+# Install dependencies:
 $ npm install
 
-# Run the app
+# Run the app:
 $ npm start
 ```
 <br><br>
   
-  \* _Learning Project at Udemy [JavaScript + React course] by Ivan Petrychenko_ 
+  \* _This is a learning project from the Udemy [JavaScript + React course] taught by Ivan Petrychenko_ 
   
    [Marvel Information Portal]: <https://alenagm.github.io/marvel/>
    [Characters page]: <https://alena-marvel.netlify.app/>
