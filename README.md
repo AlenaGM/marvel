@@ -51,7 +51,7 @@ $ npm start
   
   \* _This is a learning project from the Udemy [JavaScript + React course] taught by Ivan Petrychenko_ 
   
-   [Marvel Information Portal]: <https://alenagm.github.io/marvel/>
+   [Marvel Information Portal]: <https://alena-marvel.netlify.app/>
    [Characters page]: <https://alena-marvel.netlify.app/>
    [Comics page]: <https://alena-marvel.netlify.app/comics>
    [JavaScript + React course]: <https://www.udemy.com/course/javascript_full/>
